@@ -83,6 +83,7 @@ ul, ol {
     font-style: normal;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .header-contacts-link {
     color: #434455;
@@ -94,7 +95,6 @@ ul, ol {
 .header-contacts-link:hover, .header-contacts-link:focus {
     color: #404bbf;
 }
-
 .section {
     background-color: #2E2F42;
     padding: 188px 472px 292px 472px;
