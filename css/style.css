@@ -234,9 +234,6 @@ ul, ol {
     row-gap: 48px;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.portfolio-item {
     width: calc((100% - 48px) / 3);
 }
 
