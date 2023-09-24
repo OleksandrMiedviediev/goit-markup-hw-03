@@ -46,9 +46,6 @@ ul, ol {
     justify-content: space-between;
     align-items: center;
 }
-.container-navigation {
-    padding: 24px 0;
-}
 .header-logo {
     color:  #4d5ae5;
     font-family: 'Raleway', sans-serif;
@@ -72,7 +69,6 @@ ul, ol {
     display: flex;
     gap: 40px;
 }
-
 .header-menu-link {
     color: #2E2F42;
     font-size: 16px;
