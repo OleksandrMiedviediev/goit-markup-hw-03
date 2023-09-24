@@ -36,6 +36,7 @@ ul, ol {
 }
 
 .container {
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -43,9 +44,7 @@ ul, ol {
 .header-navigation {
     display: flex;
     flex-grow: 1;
-    justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
 }
 .header-logo {
     color:  #4d5ae5;
@@ -79,6 +78,7 @@ ul, ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .header-menu-link:hover, .header-menu-link:focus {
     color: #404bbf;
@@ -105,6 +105,8 @@ ul, ol {
 .section {
     background-color: #2E2F42;
     padding: 188px 0;
+    display: flex;
+    
 }
 .section-title {
     color: #ffffff;
