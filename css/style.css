@@ -33,18 +33,10 @@ ul, ol {
     display: flex;
     align-items: center;
 }
-.container {
-    width: 1440px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    outline: 2px solid red;
-}
 .header-navigation {
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
-    margin-left: 156px;
     align-items: center;
 }
 
@@ -71,10 +63,12 @@ ul, ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px
 }
 .header-menu {
     display: flex;
-    gap: 24px;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .header-menu-link {
