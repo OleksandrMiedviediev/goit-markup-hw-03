@@ -45,6 +45,7 @@ ul, ol {
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-logo {
@@ -70,9 +71,7 @@ ul, ol {
     display: flex;
     gap: 40px;
 }
-.header-menu-item {
-    padding: 24px 0;
-}
+
 .header-menu-link {
     color: #2E2F42;
     font-size: 16px;
