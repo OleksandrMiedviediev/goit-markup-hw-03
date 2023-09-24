@@ -243,7 +243,8 @@ ul, ol {
     flex-wrap: wrap;
     justify-content: center;
 }
-.portfolio-item {
+
+.portfolio-item:first-child {
     width: calc((100% - 48px) / 3);
 }
 
