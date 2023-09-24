@@ -36,13 +36,10 @@ ul, ol {
 }
 
 .container {
-    display: flex;
-    gap: 332px;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
-
 .header-navigation {
     display: flex;
     flex-grow: 1;
@@ -72,6 +69,9 @@ ul, ol {
 .header-menu {
     display: flex;
     gap: 40px;
+}
+.header-menu-item {
+    padding: 24px 0;
 }
 .header-menu-link {
     color: #2E2F42;
