@@ -32,8 +32,6 @@ ul, ol {
     padding-bottom: 20px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
 }
 .container {
     width: 1440px;
@@ -47,12 +45,15 @@ ul, ol {
     flex-grow: 1;
     justify-content: space-between;
     margin-left: 156px;
+    align-items: center;
 }
 
 .header-container {
     display: flex;
     gap: 332px;
-    padding-right: 156px;
+    border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    padding: 0 15px;
 }
 .header-logo {
     color:  #4d5ae5;
