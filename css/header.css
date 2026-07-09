@@ -9,7 +9,6 @@
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-left: 15px;
     margin-right: 76px;
 }
 .logo-web{
@@ -24,7 +23,9 @@
 .link-nav{
     color: #2E2F42;
     font-weight: 500;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    display: inline-block;
+    padding: 24px 0;
 }
 .link-nav:hover, .link-nav:focus{
     color: #404BBF;
@@ -46,16 +47,14 @@
 }
 .header-container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .container-nav{
     display: flex;
     align-items: center;
+    margin-right: 340px;
 }
 .nav-list{
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
