@@ -1,0 +1,19 @@
+.portfolio{
+    background-color: #ffffff;
+}
+.title-portfolio{
+    margin-bottom: 72px;
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.portfolio-item{
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    width: calc((100% - 54px) / 3);
+}
+.group{
+    padding: 32px 16px;
+}
