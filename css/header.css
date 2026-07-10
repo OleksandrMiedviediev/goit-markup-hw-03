@@ -48,10 +48,9 @@
 .header-container{
     display: flex;
     align-items: center;
+    margin:auto;
 }
-.container-nav{
-    display: flex;
-    align-items: center;
+.nav{
     margin-right: 340px;
 }
 .nav-list{
